@@ -17,8 +17,7 @@ public:
         if (addend == "0") return;
 
         auto it = addend.cend();
-        int len;
-        uint32_t i = 0;
+        int len, i = 0;
         uint64_t block, carry = 0;
 
         while ((len = it - addend.cbegin()) > 0)
