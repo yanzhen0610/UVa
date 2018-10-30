@@ -7,11 +7,7 @@
 class BigDecimal
 {
 public:
-    BigDecimal() : data(), s(), updated(true)
-    {
-        this->data.push_back(0);
-        this->str();
-    }
+    BigDecimal() : data({0}), s(), updated(true) { }
     void add(const std::string& addend)
     {
         if (addend == "0") return;
