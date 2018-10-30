@@ -41,7 +41,7 @@ public:
 
         this->updated = true;
     }
-    // std::string str() const { return this->s; }
+    // const std::string& str() const { return this->s; }
     std::string str()
     {
         if (this->updated)
