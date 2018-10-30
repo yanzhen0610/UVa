@@ -58,7 +58,7 @@ private:
     std::string s;
     bool updated;
     // log(2^64)=19
-    static const constexpr uint64_t block_size = 1000000000000000000;
+    static const constexpr uint64_t block_size = 1000000000000000000; // 10^18
     static const constexpr int block_size_len = 18;
 };
 
